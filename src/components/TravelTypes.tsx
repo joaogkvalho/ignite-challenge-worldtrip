@@ -2,8 +2,19 @@ import { Flex, SimpleGrid, Box, Image, Text } from '@chakra-ui/react'
 
 export function TravelTypes(){
     return( 
-        <Flex my="24" justify="center">
-            <SimpleGrid columns={5} spacing="20" align="center" justify="center">
+        <Flex
+            w="100%"
+            maxWidth={1180}
+            justify="center"
+            mx="auto"
+            my="20"
+        >
+           <SimpleGrid
+                columns={[2, 3, 5]}
+                spacing="14"
+                align="center"
+                justify="center"
+            >
                 <Box>
                     <Image src="/images/cocktail.svg" />
                     <Text mt="4" fontWeight="700">vida noturna</Text>
