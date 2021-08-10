@@ -11,7 +11,7 @@ export function TravelTypes(){
         >
            <SimpleGrid
                 columns={[2, 3, 5]}
-                spacing="14"
+                spacing="28"
                 align="center"
                 justify="center"
             >
