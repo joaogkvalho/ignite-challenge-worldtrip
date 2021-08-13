@@ -14,6 +14,7 @@ export function TravelTypes(){
                 spacing="28"
                 align="center"
                 justify="center"
+                padding={["5", "6","0"]}
             >
                 <Box>
                     <Image src="/images/cocktail.svg" />
