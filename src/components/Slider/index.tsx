@@ -1,7 +1,8 @@
-import { Image, Text } from '@chakra-ui/react'
+import { Image, Text, Heading } from '@chakra-ui/react'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Navigation, Pagination } from 'swiper/core'
+import Link from 'next/link'
 
 import styles from './styles.module.scss'
 
@@ -23,17 +24,19 @@ export function Slider(){
                   objectFit="cover" 
                   position="absolute"
                 />
-                <Text
-                  fontSize={["2xl", "3xl"]}
-                  fontWeight="700"
-                  color="white"
-                  position="relative"
-                  align="center"
-                  mt="44"
-                >
-                  Europa<br/>
-                  O continente mais antigo
-                </Text>
+                <Link href="/europe">
+                  <Text
+                    fontSize="2xl"
+                    fontWeight="700"
+                    color="white"
+                    position="relative"
+                    align="center"
+                    mt="44"
+                  >
+                    <Heading>Europa</Heading>
+                    O continente mais antigo
+                  </Text>
+                </Link>
             </SwiperSlide>
             <SwiperSlide>
                 <Image
@@ -44,14 +47,14 @@ export function Slider(){
                   position="absolute"
                 />
                  <Text
-                  fontSize={["2xl", "3xl"]}
+                  fontSize="2xl"
                   fontWeight="700"
                   color="white"
                   position="relative"
                   align="center"
                   mt="44"
                 >
-                  Ásia<br/>
+                  <Heading>Ásia</Heading>
                   O continente da tecnologia
                 </Text>
             </SwiperSlide>
@@ -64,14 +67,14 @@ export function Slider(){
                   position="absolute"
                 />
                  <Text
-                  fontSize={["2xl", "3xl"]}
+                  fontSize="2xl"
                   fontWeight="700"
                   color="white"
                   position="relative"
                   align="center"
                   mt="44"
                 >
-                  América do Sul<br/>
+                  <Heading>America do Sul</Heading>
                   O continente da tradição
                 </Text>
             </SwiperSlide>
