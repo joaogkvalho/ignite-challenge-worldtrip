@@ -24,7 +24,7 @@ export function Slider(){
                   position="absolute"
                 />
                 <Text
-                  fontSize="3xl"
+                  fontSize={["2xl", "3xl"]}
                   fontWeight="700"
                   color="white"
                   position="relative"
@@ -44,7 +44,7 @@ export function Slider(){
                   position="absolute"
                 />
                  <Text
-                  fontSize="3xl"
+                  fontSize={["2xl", "3xl"]}
                   fontWeight="700"
                   color="white"
                   position="relative"
@@ -64,7 +64,7 @@ export function Slider(){
                   position="absolute"
                 />
                  <Text
-                  fontSize="3xl"
+                  fontSize={["2xl", "3xl"]}
                   fontWeight="700"
                   color="white"
                   position="relative"
