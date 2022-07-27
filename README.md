@@ -1,4 +1,4 @@
-
+![ignite-challenge-worldtrip](https://user-images.githubusercontent.com/50122135/181330105-827706de-db6f-4090-8055-7dc983689919.png)
 
 > Status: Finished ✔️
 
